@@ -2,19 +2,18 @@ package com.abranlezama.algorithms;
 
 /*
 Binary Search Complexity
-        Time Complexities
 
-        Best case complexity: O(1)
-        Average case complexity: O(log n)
-        Worst case complexity: O(log n)
+Time Complexities
+Best case complexity: O(1)
+Average case complexity: O(log n)
+Worst case complexity: O(log n)
 
-        Space Complexity
+Space Complexity
+The space complexity of the binary search is O(1).
 
-        The space complexity of the binary search is O(1).
-
-        Binary Search Applications
-        In libraries of Java, .Net, C++ STL
-        While debugging, the binary search is used to pinpoint the place where the error happens.
+Binary Search Applications
+- In libraries of Java, .Net, C++ STL
+- While debugging, the binary search is used to pinpoint the place where the error happens.
 */
 
 public class BinarySearch {
