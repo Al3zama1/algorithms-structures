@@ -1,4 +1,4 @@
-package com.abranlezama.algorithms;
+package com.abranlezama.algorithms.sort;
 
 /*
 Hence, the number of comparisons is

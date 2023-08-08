@@ -1,4 +1,4 @@
-package com.abranlezama.algorithms;
+package com.abranlezama.algorithms.search;
 
 /*
 Binary Search Complexity

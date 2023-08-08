@@ -1,4 +1,4 @@
-package com.abranlezama.algorithms;
+package com.abranlezama.algorithms.sort;
 
 
 import java.lang.reflect.Array;
