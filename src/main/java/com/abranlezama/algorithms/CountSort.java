@@ -11,7 +11,9 @@ Best Case Complexity: O(n+k)
 Average Case Complexity: O(n+k)
 In all the above cases, the complexity is the same because no matter how the elements are placed in the array, the algorithm goes through n+k times.
 
-There is no comparison between any elements, so it is better than comparison based sorting techniques. But, it is bad if the integers are very large because the array of that size should be made.
+There is no comparison between any elements, so it is better than comparison based sorting techniques.
+But, it is bad if the integers are very large because the array of that size should be made.
+-eg: {1, 1002, 300} --> bad since we would have to do 1002 iterations just to sort 3 numbers.
 
 Space Complexity
 
