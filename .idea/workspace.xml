@@ -47,20 +47,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.sort.HeapSort" />
-      <module name="algorithms-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.abranlezama.algorithms.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.sort.InsertionSort" />
       <module name="algorithms-structures" />
@@ -100,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.sort.QuickSort" />
+      <module name="algorithms-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.abranlezama.algorithms.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.sort.SelectionSort" />
       <module name="algorithms-structures" />
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691427372323</updated>
-      <workItem from="1691427373436" duration="31428000" />
+      <workItem from="1691427373436" duration="33841000" />
     </task>
     <servers />
   </component>
