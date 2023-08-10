@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ea50b0f8-b4d3-4e02-a14a-fd282d0b902f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +46,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.sort.InsertionSort" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ConnectedComponentsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.practice.graph.ConnectedComponentsCount" />
       <module name="algorithms-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abranlezama.algorithms.sort.*" />
+          <option name="PATTERN" value="com.abranlezama.practice.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.search.LinearSearch" />
+    <configuration name="DirectedHasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.practice.graph.DirectedHasPath" />
       <module name="algorithms-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abranlezama.algorithms.search.*" />
+          <option name="PATTERN" value="com.abranlezama.practice.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.sort.MergeSort" />
+    <configuration name="GraphTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.practice.graph.GraphTraversal" />
       <module name="algorithms-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abranlezama.algorithms.sort.*" />
+          <option name="PATTERN" value="com.abranlezama.practice.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.sort.QuickSort" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.structures.linkedlist.Main" />
       <module name="algorithms-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abranlezama.algorithms.sort.*" />
+          <option name="PATTERN" value="com.abranlezama.structures.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.sort.SelectionSort" />
+    <configuration name="UndirectedHasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.practice.graph.UndirectedHasPath" />
       <module name="algorithms-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abranlezama.algorithms.sort.*" />
+          <option name="PATTERN" value="com.abranlezama.practice.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.UndirectedHasPath" />
+        <item itemvalue="Application.ConnectedComponentsCount" />
+        <item itemvalue="Application.DirectedHasPath" />
+        <item itemvalue="Application.GraphTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691427372323</updated>
-      <workItem from="1691427373436" duration="33841000" />
+      <workItem from="1691427373436" duration="86398000" />
     </task>
     <servers />
   </component>
