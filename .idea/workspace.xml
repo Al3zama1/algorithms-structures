@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea50b0f8-b4d3-4e02-a14a-fd282d0b902f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/search/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/search/LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/BuckedSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/CountSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/CountSortV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/RadixSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/algorithms/sort/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/binaryheap/BinaryHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/dynamicarray/DynamicArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/linkedlist/DoublyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/linkedlist/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/linkedlist/SinglyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/prefixtree/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/prefixtree/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/prefixtree/PrefixTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/queue/QueueImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/stack/StackImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abranlezama/structures/unionfind/UnionFind.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -22,50 +48,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2TfHm911cdVBqPbKZOj7dLdHxu9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.com.abranlezama.structures.prefixtree.Main">
-    <configuration name="ConnectedComponentsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.practice.graph.ConnectedComponentsCount" />
+}</component>
+  <component name="RunManager" selected="Application.TopologicalSortAdjacencyList">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.search.BinarySearch" />
       <module name="algorithms-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abranlezama.practice.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DirectedHasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.practice.graph.DirectedHasPath" />
-      <module name="algorithms-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.abranlezama.practice.graph.*" />
+          <option name="PATTERN" value="com.abranlezama.algorithms.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,11 +92,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.structures.linkedlist.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.structures.trie.Main" />
       <module name="algorithms-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abranlezama.structures.linkedlist.*" />
+          <option name="PATTERN" value="com.abranlezama.structures.trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UndirectedHasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.practice.graph.UndirectedHasPath" />
+    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.sort.RadixSort" />
       <module name="algorithms-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abranlezama.practice.graph.*" />
+          <option name="PATTERN" value="com.abranlezama.algorithms.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.abranlezama.structures.prefixtree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abranlezama.structures.prefixtree.Main" />
+    <configuration name="TopologicalSortAdjacencyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.graph.topologicalsort.TopologicalSortAdjacencyList" />
       <module name="algorithms-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abranlezama.structures.prefixtree.*" />
+          <option name="PATTERN" value="com.abranlezama.algorithms.graph.topologicalsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.abranlezama.algorithms.graph.dijkstras.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abranlezama.algorithms.graph.dijkstras.Main" />
+      <module name="algorithms-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.abranlezama.algorithms.graph.dijkstras.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,13 +145,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.abranlezama.structures.prefixtree.Main" />
+        <item itemvalue="Application.TopologicalSortAdjacencyList" />
+        <item itemvalue="Application.com.abranlezama.algorithms.graph.dijkstras.Main" />
+        <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.UndirectedHasPath" />
-        <item itemvalue="Application.ConnectedComponentsCount" />
-        <item itemvalue="Application.DirectedHasPath" />
+        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-5f3ff201" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -130,7 +168,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691427372323</updated>
-      <workItem from="1691427373436" duration="111268000" />
+      <workItem from="1691427373436" duration="114101000" />
+      <workItem from="1692741375387" duration="5440000" />
+      <workItem from="1692856418324" duration="32770000" />
+      <workItem from="1693110287823" duration="223000" />
+      <workItem from="1693110682250" duration="61837000" />
+      <workItem from="1693634516415" duration="2391000" />
+      <workItem from="1694486277546" duration="694000" />
+      <workItem from="1694489563164" duration="597000" />
+      <workItem from="1694549632159" duration="13225000" />
+      <workItem from="1694913169288" duration="1220000" />
+      <workItem from="1695178795992" duration="21000" />
+      <workItem from="1696890642536" duration="612000" />
+      <workItem from="1696893826378" duration="26143000" />
+      <workItem from="1699286572750" duration="598000" />
+      <workItem from="1699287319463" duration="1542000" />
+      <workItem from="1699388820544" duration="1202000" />
+      <workItem from="1703986718813" duration="112000" />
+      <workItem from="1703986856147" duration="630000" />
+      <workItem from="1705985210251" duration="66000" />
     </task>
     <servers />
   </component>

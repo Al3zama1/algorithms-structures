@@ -1,76 +1,82 @@
 package com.abranlezama.structures.dynamicarray;
 
+import java.util.Arrays;
 import java.util.Iterator;
 
-public class DynamicArray<T> implements Iterable<T> {
+public class DynamicArray implements Iterable<Integer>{
 
-    private T[] arr;
-    private int len = 0; // elements in array
-    private int capacity; // actual array capacity
+    private static final int DEFAULT_CAP = 8;
 
+    public int[] arr;
+    public int len = 0;
+    private int capacity = 0;
+
+    // initialize array with default capacity
     public DynamicArray() {
-        this(16);
+        this(DEFAULT_CAP);
     }
 
+    // initialize array with a certain capacity
     public DynamicArray(int capacity) {
         if (capacity < 0) throw new IllegalArgumentException("Illegal Capacity: " + capacity);
         this.capacity = capacity;
-        arr = (T[]) new Object[capacity];
+        arr = new int[capacity];
     }
 
+    // given an array make it a dynamic array
+    public DynamicArray(int[] arr) {
+        if (arr == null) throw new IllegalArgumentException("Array cannot be null");
+        this.arr = Arrays.copyOf(arr, arr.length);
+        capacity = len = arr.length;
+    }
+
+    // return the size of the array
     public int size() {
         return len;
     }
 
+    // return true/false on whether the array is empty
     public boolean isEmpty() {
-        return size() == 0;
+        return len == 0;
     }
 
-    public T get(int index) {
-        if (index < 0 || index >= len) throw new IndexOutOfBoundsException("Index Out Of Bounds");
+    public int get(int index) {
         return arr[index];
     }
 
-    public void set(int index, T data) {
-        if (index < 0 || index >= len) throw new IndexOutOfBoundsException("Index Out Of Bounds");
-        arr[index] = data;
+    public void set(int index, int elem) {
+        if (index >= len) throw new IndexOutOfBoundsException("Index Out of Bounds");
+        arr[index] = elem;
     }
 
-    public void clear() {
-        for (int i = 0; i < len; i++) arr[i] = null;
-        len = 0;
-    }
-
-    public void add(T data) {
-        if (len + 1 >= capacity){
+    // add an element to the dynamic array
+    public void add(int elem) {
+        if (len + 1 >= capacity) {
             if (capacity == 0) capacity = 1;
-            else capacity *= 2;
-
-            T[] newArr = (T[]) new Object[capacity];
-            System.arraycopy(arr, 0, newArr, 0, len);
-
-            arr = newArr;
+            else capacity *= 2; // double the size
+            arr = Arrays.copyOf(arr, capacity); // pads with extra 0/null elements
         }
-        arr[len++] = data;
+        arr[len++] = elem;
     }
 
-    public T removeAt(int rmIndex) {
-        if (rmIndex < 0 || rmIndex >= len) throw new IndexOutOfBoundsException("Index Out Of Bounds");
-        T data = arr[rmIndex];
-        T[] newArr = (T[]) new Object[len - 1];
-        for (int i = 0, j = 0; i < len; i++, j++) {
-            if (i == rmIndex) j--;
-            else newArr[j] = arr[i];
-        }
-
-        arr = newArr;
-        capacity = --len;
-        return data;
+    /*
+    Removes the element at the specified index in the list.
+    If possible, avoid calling this method as it takes O(n) time
+    to remove an element since you have to reconstruct the array
+     */
+    public void removeAt(int rmIndex) {
+        System.arraycopy(arr, rmIndex + 1, arr, rmIndex, len - rmIndex - 1);
+        --len;
+        --capacity;
     }
 
-    public boolean remove(Object obj) {
+    /*
+    Search and remove an element if it is found in the array.
+    If possible, avoid calling this method as it takes O(n) time
+     */
+    public boolean remove(int elem) {
         for (int i = 0; i < len; i++) {
-            if (arr[i].equals(obj)) {
+            if (arr[i] == elem) {
                 removeAt(i);
                 return true;
             }
@@ -78,21 +84,9 @@ public class DynamicArray<T> implements Iterable<T> {
         return false;
     }
 
-    public int indexOf(Object obj) {
-        for (int i = 0; i < len; i++) {
-            if (arr[i].equals(obj)) return i;
-        }
-        return - 1;
-    }
-
-    public boolean contains(Object obj) {
-        return indexOf(obj) != -1;
-    }
-
-
     @Override
-    public Iterator<T> iterator() {
-        return new Iterator<T>() {
+    public Iterator<Integer> iterator() {
+        return new Iterator<Integer>() {
             int index = 0;
 
             @Override
@@ -101,9 +95,19 @@ public class DynamicArray<T> implements Iterable<T> {
             }
 
             @Override
-            public T next() {
+            public Integer next() {
                 return arr[index++];
             }
         };
+    }
+
+    @Override
+    public String toString() {
+        if (len == 0) return "[]";
+        else {
+            StringBuilder sb = new StringBuilder(len).append("[");
+            for (int i = 0; i < len - 1; i++) sb.append(arr[i] + ", ");
+            return sb.append(arr[len - 1] + "]").toString();
+        }
     }
 }
